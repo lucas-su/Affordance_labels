@@ -4,8 +4,8 @@ This repository contains affordance labels for the NYU, Sun 3D, Sun RGBD, Scene 
 The data is encoded in json files in the `json` folder. As described in _Macro and Object level Affordance Data Collection to Enrich multiple RGBD Datasets_, the affordances are encoded on a high and a low level. Transfer tables for the high level affordances, for the low level affordances and for both the high and low level affordances are available for all the datasets. The encoding represents the following affordances:
 
 High level 
-- Constraind movement 
-- Unconstrianed_movement
+- Constrained movement 
+- Unconstrained_movement
 - Direct interaction
 - Indirect interaction
 - Observation
@@ -36,5 +36,7 @@ Low level
 - Provides warmth
 - Provides illumination
 - Traversable 
+
+`meta.json` provides these affordance label in a machine readable format. 
   
 The procedure for collecting this data is described in _Macro and Object level Affordance Data Collection to Enrich multiple RGBD Datasets_, Luc Schoot Uiterkamp & Gwenn Englebienne, _in print_
